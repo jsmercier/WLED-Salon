@@ -1,0 +1,124 @@
+(footprint "micro fuse holder"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -2 -5.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a5db4734-59dd-4697-b7f7-a9005aa0acbe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "micro fuse holder"
+		(at 8 -5.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "82c51051-41f1-4cbe-8157-8771661a679a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd09d46f-cf6b-4523-87e1-8c30d58c5e8a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6427a020-9440-4789-8017-530966b0f2a7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.45 -2.4)
+		(end 13.35 2.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "5a06170f-fa15-42ea-b1af-3525d6128f43")
+	)
+	(fp_rect
+		(start -2.45 -3.4)
+		(end 14.35 3.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "c4d20427-7d6f-428f-91c8-0ac0dae5418e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 6 5.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5953777e-548f-4f65-97f5-4827e789d858")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 0 0)
+		(size 1.5 2.8)
+		(drill oval 0.5 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b6ddc636-fcf5-417c-859b-49cd5826aae6")
+	)
+	(pad "1" thru_hole oval
+		(at 3.8 0)
+		(size 1.5 2.8)
+		(drill oval 0.5 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "be23db5d-40ad-48fb-9fd0-d04caad6babb")
+	)
+	(pad "2" thru_hole oval
+		(at 8.1 0)
+		(size 1.5 2.8)
+		(drill oval 0.5 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cdc0ba11-b691-4686-8c24-f11c91310eb3")
+	)
+	(pad "2" thru_hole oval
+		(at 11.9 0)
+		(size 1.5 2.8)
+		(drill oval 0.5 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ba279802-f8eb-4cd7-8642-7c63f42f0c3e")
+	)
+	(embedded_fonts no)
+)
