@@ -504,7 +504,7 @@
       "plot": "gerber files/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "WLED-Salon.step",
       "svg": "",
       "vrml": ""
     },
